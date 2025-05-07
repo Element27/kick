@@ -3,7 +3,7 @@ import { BiHeart, BiStar } from 'react-icons/bi'
 
 export default function GamesCard({ item }) {
   return (
-    <div className='rounded-2xl max-w-[360px] w-full text-white overflow-hidden relative lg:h-80 mx-auto'>
+    <div className='rounded-2xl max-w-[360px] w-full text-white overflow-hidden relative lg:h-60 mx-auto'>
 
       <img src={item.src}
         alt=""
