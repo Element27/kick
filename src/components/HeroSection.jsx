@@ -34,13 +34,13 @@ export default function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 4000); // change every 4 seconds
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className='relative h-[30vh] md:h-[50vh] lg:h-[80vh] w-full my-32 '>
+    <div className='relative h-[30vh] md:h-[50vh] lg:h-[80vh] w-full lg:my-32 '>
       <div
         className='flex transition-transform duration-500 ease-in-out h-full'
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
