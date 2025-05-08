@@ -21,13 +21,13 @@ export default function HomePage() {
           setToggleSidebar={setToggleSidebar}
         />
       </div>
-      <div className="w-full lg:w-4/5">
+      <div className="w-full lg:w-4/5 mx-auto">
         <TopBar
           toggleSideBar={toggleSideBar}
           setToggleSidebar={setToggleSidebar}
         />
 
-        <div>
+        <div className="w-full mx-auto">
           <HeroSection />
           <AllGames />
         </div>

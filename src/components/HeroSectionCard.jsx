@@ -24,9 +24,9 @@ export default function HeroSectionCard({ item, index, currentIndex }) {
         />
       </div>
 
-      <div className='relative z-10 flex justify-center items-end h-full w-full '>
+      <div className='relative z-10 flex justify-center items-end h-full w-full mx-auto'>
 
-        <div className='z-20 w-2/3 md:w-1/2  bg-black/20 p-1 rounded-md'>
+        <div className='z-20 w-2/3 md:w-1/2  bg-black/20 p-1 rounded-md mx-auto'>
           <div className='w-full lg:w-4/5 mx-auto'>
             <div className='text-white'>
               <h4 className='text-lg lg:text-4xl hidden md:block '>{item.title}</h4>

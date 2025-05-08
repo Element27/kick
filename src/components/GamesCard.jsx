@@ -11,7 +11,7 @@ export default function GamesCard({ item }) {
       />
       <div className='bg-[#151C2F] z-10 absolute bottom-0 left-0 right-0'>
         <div className='flex justify-between p-2 lg:p-4   bg-white/10'>
-          <button className="bg-[#EA3D17] rounded-xl p-1 lg:p-2 text-white h-fit text-xs lg:text-base">New</button>
+          <button className="bg-[#EA3D17] rounded-md p-1 px-2 text-white font-light h-fit text-[8px] lg:text-[10px]">New</button>
 
           <div className='flex flex-col items-center justify-center text-sm lg:text-xl font-semibold '>
             <p>{item.label}</p>
@@ -37,7 +37,7 @@ export default function GamesCard({ item }) {
           className="w-3 "
         />
 
-        <span className='text-xs'>{item.count}</span></div>}
+        <span className='text-xs'>{Math.floor(Math.random() * 5000)}</span></div>}
     </div>
   )
 }
