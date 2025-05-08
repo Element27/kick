@@ -3,11 +3,11 @@ import { BiHeart, BiStar } from 'react-icons/bi'
 
 export default function GamesCard({ item }) {
   return (
-    <div className='rounded-2xl max-w-[360px] w-full text-white overflow-hidden relative lg:h-60 mx-auto'>
+    <div className='rounded-2xl  w-[320px] text-white overflow-hidden relative lg:h-60 mx-auto'>
 
       <img src={item.src}
         alt=""
-        className='w-full h-full'
+        className='w-md h-full'
       />
       <div className='bg-[#151C2F] z-10 absolute bottom-0 left-0 right-0'>
         <div className='flex justify-between p-2 lg:p-4   bg-white/10'>
