@@ -12,7 +12,7 @@ export default function Signup() {
       <h4 className='text-white text-xl font-semibold'>Sign up to continue</h4>
       <p className='text-white text-lg'>Get started with KICK by signing up with your details below</p>
 
-      <div className='w-full max-w-md mx-auto mt-4'>
+      <div className='w-full max-w-md mx-auto mt-4 relative'>
         <InputComponent placeholder="Enter your first name" />
         <InputComponent placeholder="Enter your last name" />
         <InputComponent placeholder="Enter your email address" />
@@ -25,7 +25,7 @@ export default function Signup() {
         <div className="absolute -top-20 right-0">
           <img src="assets/ball.png" alt="" />
         </div>
-        <div className="absolute -bottom-20 -left-10">
+        <div className="absolute -bottom-10 -left-10">
           <img src="assets/ball.png" alt="" />
         </div>
       </div>

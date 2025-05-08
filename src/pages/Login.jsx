@@ -12,7 +12,7 @@ export default function Login() {
       <h4 className='text-white text-xl font-semibold'>Welcome back</h4>
       <p className='text-white text-lg'>Play trivia and arcade games</p>
 
-      <div className='w-full max-w-md mx-auto mt-4'>
+      <div className='w-full max-w-md mx-auto mt-4 relative'>
         <InputComponent placeholder="Enter your email address" />
 
         <GlowingButton label="Continue" />
@@ -21,7 +21,7 @@ export default function Login() {
         <div className="absolute -top-20 right-0">
           <img src="assets/ball.png" alt="" />
         </div>
-        <div className="absolute -bottom-20 -left-10">
+        <div className="absolute -bottom-10 -left-10">
           <img src="assets/ball.png" alt="" />
         </div>
       </div>
