@@ -17,13 +17,14 @@ function App() {
   return (
     <div className="font-redhat">
       {/* <HomePage /> */}
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/onboarding" element={<OnBoarding />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/onboarding" element={<OnBoarding />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
