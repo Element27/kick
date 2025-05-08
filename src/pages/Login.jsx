@@ -4,7 +4,7 @@ import GlowingButton from '../components/GlowingButton'
 
 export default function Login() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen w-screen overflow-x-hidden bg-[#151C2F]">
+    <div className="relative flex flex-col items-center justify-center h-screen w-screen overflow-x-hidden bg-[#151C2F]">
 
       <div className='my-6'>
         <img src="assets/logo.png" alt="" className='w-fit' />
